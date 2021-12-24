@@ -6,10 +6,10 @@ main()
   scanf("%d",&n);
   while(n>=0)
   {
-  	if (n%i<0)
+  	if (n%i==0)
   	{
   		printf(" perfect number");
-  		sum=sum+i;
+  		
   		i++;
 	  }
 	  else
